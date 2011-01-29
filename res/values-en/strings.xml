@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">Bullshit generátor</string>
-	<string name="more">Még kérek!</string>
+	<string name="app_name">Bullshit Generator</string>
+	<string name="more">Give me more!</string>
+	<string name="about_title">About</string>
+	<string name="about_text">
+		Created by: <b>Márton Salomváry</b>\n
+		Contact: <b>salomvary@gmail.com</b>\n
+		Original idea: <b>dack.com</b>\n
+		Hosting: <b>vancso.hu/bullshit</b>
+	</string>
+	<string name="preferences">Settings</string>
 
 	<string-array name="part1">
 		<item>Erőforrás-alapú megközelítéssel kell</item>

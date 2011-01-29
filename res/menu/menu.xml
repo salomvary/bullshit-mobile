@@ -3,4 +3,12 @@
     <item android:id="@+id/about_menu"
           android:icon="@android:drawable/ic_menu_info_details"
           android:title="@string/about_title" />
+    <item android:id="@+id/preferences"
+          android:icon="@android:drawable/ic_menu_preferences"
+          android:title="@string/preferences" >
+          <menu android:id="@+id/languages_submenu">
+          	<group android:checkableBehavior="single" android:id="@+id/languages">
+          	</group>
+          </menu>
+    </item>          
 </menu>

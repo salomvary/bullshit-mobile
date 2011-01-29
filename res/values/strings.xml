@@ -10,6 +10,7 @@
 		Magyar szöveg: <b>Varga András</b>\n
 		Hosting: <b>vancso.hu/bullshit</b>
 	</string>
+	<string name="preferences">Beállítások</string>
 
 	<string-array name="part1">
 		<item>Erőforrás-alapú megközelítéssel kell</item>

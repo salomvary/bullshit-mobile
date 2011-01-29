@@ -1,14 +1,20 @@
 package bullshit.mobile;
 
+import java.util.Locale;
 import java.util.Random;
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.SubMenu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -20,10 +26,25 @@ public class Bullshit extends Activity {
 	private String[] part3;
 	private String[] part4;
 	private TextView text;
+	
+	//locales supported by the app. TODO: calculate dynamically 
+	private static final Locale[] locales = new Locale[] {
+		new Locale("hu"),
+		new Locale("en")
+	};
+	private SharedPreferences prefs;
+	private static final String PREF_LOCALE = "locale";
 
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
+    	prefs = this.getPreferences(Context.MODE_PRIVATE);
+    	String preferredLocale = prefs.getString(PREF_LOCALE, null);
+    	if(preferredLocale != null) {
+    		setLocale(new Locale(preferredLocale));
+    	}
+    	
+    	// init
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
@@ -67,17 +88,31 @@ public class Bullshit extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
+        SubMenu languages = menu.findItem(R.id.preferences).getSubMenu();
+        for(int i=0; i<locales.length; i++) {
+        	languages.add(R.id.languages, i, 0, locales[i].getLanguage());
+        }
         return true;
     }
     
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-    	switch (item.getItemId()) {
-		case R.id.about_menu:
-			about();
-			return true;
-		default:
-			return super.onOptionsItemSelected(item);
+    	if(item.getGroupId() == R.id.languages) {
+    		int localeId = item.getItemId();
+    		setLocale(locales[localeId]);
+    		prefs.edit()
+    			.putString(PREF_LOCALE, locales[localeId].getLanguage())
+    			.commit();
+    		restart();
+    		return true;
+    	} else {
+	    	switch (item.getItemId()) {
+			case R.id.about_menu:
+				about();
+				return true;
+			default:
+				return super.onOptionsItemSelected(item);
+			}
 		}
     }
 
@@ -98,5 +133,19 @@ public class Bullshit extends Activity {
 			}
 		});
 		return dialog;
+	}
+	
+	private void setLocale(Locale locale) {
+		Locale.setDefault(locale);
+	    Configuration config = new Configuration();
+	    config.locale = locale;
+	    getBaseContext().getResources().updateConfiguration(config,null);
+	}
+	
+	private void restart() {
+		//TODO should the whole app be restarted to update title 
+		Intent intent = getIntent();
+		finish();
+		startActivity(intent);
 	}
 }
