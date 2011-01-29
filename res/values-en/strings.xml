@@ -2,14 +2,6 @@
 <resources>
 	<string name="app_name">Bullshit generátor</string>
 	<string name="more">Még kérek!</string>
-	<string name="about_title">A Bullshit generátorról</string>
-	<string name="about_text">
-		Fejlesztette: <b>Salomváry Márton</b>\n
-		Kapcsolat: <b>salomvary@gmail.com</b>\n
-		Eredeti ötlet: <b>dack.com</b>\n
-		Magyar szöveg: <b>Varga András</b>\n
-		Hosting: <b>vancso.hu/bullshit</b>
-	</string>
 
 	<string-array name="part1">
 		<item>Erőforrás-alapú megközelítéssel kell</item>

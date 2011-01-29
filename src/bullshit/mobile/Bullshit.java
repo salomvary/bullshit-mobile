@@ -3,8 +3,12 @@ package bullshit.mobile;
 import java.util.Random;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -57,4 +61,42 @@ public class Bullshit extends Activity {
     		part3[generator.nextInt(part3.length)] + " " +
     		part4[generator.nextInt(part4.length)] + ".";
     }
+    
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+    	switch (item.getItemId()) {
+		case R.id.about_menu:
+			about();
+			return true;
+		default:
+			return super.onOptionsItemSelected(item);
+		}
+    }
+
+	private void about() {
+		showDialog(R.layout.about_dialog);
+	}
+	
+	@Override
+	protected Dialog onCreateDialog(int id) {
+		//no switch because we only have one dialog
+		final Dialog dialog = new Dialog(this);
+		dialog.setContentView(R.layout.about_dialog);
+		dialog.setTitle(R.string.about_title);
+		dialog.findViewById(R.id.layout_root).setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				dialog.dismiss();
+			}
+		});
+		return dialog;
+	}
 }
