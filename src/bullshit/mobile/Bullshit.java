@@ -11,10 +11,10 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class Bullshit extends Activity {
-    private String[] part1s;
-	private String[] part2s;
-	private String[] part3s;
-	private String[] part4s;
+    private String[] part1;
+	private String[] part2;
+	private String[] part3;
+	private String[] part4;
 	private TextView text;
 
 	/** Called when the activity is first created. */
@@ -25,13 +25,16 @@ public class Bullshit extends Activity {
         
         text = (TextView)findViewById(R.id.textview);
         
-        Button button = (Button)findViewById(R.id.more);
-        button.setOnClickListener(new OnClickListener() {
+        OnClickListener listener = new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				text.setText(getBullShit());
 			}
-		});
+		};
+        View main = findViewById(R.id.main);
+        main.setOnClickListener(listener);
+        Button button = (Button)findViewById(R.id.more);
+        button.setOnClickListener(listener);
         
         initResources();
         text.setText(getBullShit());
@@ -40,18 +43,18 @@ public class Bullshit extends Activity {
     private void initResources() {
     	Resources res = getResources();
     	//TODO: should use a multidimensional array
-    	part1s = res.getStringArray(R.array.part1);
-    	part2s = res.getStringArray(R.array.part2);
-    	part3s = res.getStringArray(R.array.part3);
-    	part4s = res.getStringArray(R.array.part4);
+    	part1 = res.getStringArray(R.array.part1);
+    	part2 = res.getStringArray(R.array.part2);
+    	part3 = res.getStringArray(R.array.part3);
+    	part4 = res.getStringArray(R.array.part4);
     }
     
     private String getBullShit() {
     	Random generator = new Random();
     	return 
-    		part1s[generator.nextInt(part1s.length)] + " " +
-    		part2s[generator.nextInt(part2s.length)] + " " +
-    		part3s[generator.nextInt(part3s.length)] + " " +
-    		part4s[generator.nextInt(part4s.length)] + ".";
+    		part1[generator.nextInt(part1.length)] + " " +
+    		part2[generator.nextInt(part2.length)] + " " +
+    		part3[generator.nextInt(part3.length)] + " " +
+    		part4[generator.nextInt(part4.length)] + ".";
     }
 }
