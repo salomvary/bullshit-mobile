@@ -7,7 +7,7 @@
           android:icon="@android:drawable/ic_menu_preferences"
           android:title="@string/preferences" >
           <menu android:id="@+id/languages_submenu">
-          	<group android:checkableBehavior="single" android:id="@+id/languages">
+          	<group android:id="@+id/languages">
           	</group>
           </menu>
     </item>          

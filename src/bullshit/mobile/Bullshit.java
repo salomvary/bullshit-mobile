@@ -33,15 +33,18 @@ public class Bullshit extends Activity {
 		new Locale("en")
 	};
 	private SharedPreferences prefs;
-	private static final String PREF_LOCALE = "locale";
+	private static final String PREF_LOCALE_KEY = "locale";
+	private static final String PREF_SYSTEM_LOCALE = "";
+	private String preferredLocale;
+	private static final Locale systemLocale = Locale.getDefault();
 
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
     	prefs = this.getPreferences(Context.MODE_PRIVATE);
-    	String preferredLocale = prefs.getString(PREF_LOCALE, null);
+    	preferredLocale = prefs.getString(PREF_LOCALE_KEY, null);
     	if(preferredLocale != null) {
-    		setLocale(new Locale(preferredLocale));
+    		setLocale(preferredLocale.equals(PREF_SYSTEM_LOCALE) ? systemLocale : new Locale(preferredLocale));
     	}
     	
     	// init
@@ -88,10 +91,15 @@ public class Bullshit extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
-        SubMenu languages = menu.findItem(R.id.preferences).getSubMenu();
+        SubMenu languages = menu.findItem(R.id.preferences).getSubMenu();        
+        languages.add(R.id.languages, -1, 0, 
+        		getText(R.string.systemlocale) + " (" + systemLocale.getDisplayLanguage(systemLocale) + ")")
+        	.setChecked(preferredLocale == null || preferredLocale.equals(PREF_SYSTEM_LOCALE));
         for(int i=0; i<locales.length; i++) {
-        	languages.add(R.id.languages, i, 0, locales[i].getLanguage());
+        	languages.add(R.id.languages, i, 0, locales[i].getDisplayLanguage(locales[i]))
+        		.setChecked(locales[i].getLanguage().equals(preferredLocale));
         }
+        languages.setGroupCheckable(R.id.languages, true, true);
         return true;
     }
     
@@ -99,10 +107,16 @@ public class Bullshit extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
     	if(item.getGroupId() == R.id.languages) {
     		int localeId = item.getItemId();
-    		setLocale(locales[localeId]);
-    		prefs.edit()
-    			.putString(PREF_LOCALE, locales[localeId].getLanguage())
-    			.commit();
+    		item.setChecked(true);
+    		if(localeId > -1) {
+	    		prefs.edit()
+	    			.putString(PREF_LOCALE_KEY, locales[localeId].getLanguage())
+	    			.commit();
+    		} else {
+	    		prefs.edit()
+	    			.putString(PREF_LOCALE_KEY, PREF_SYSTEM_LOCALE)
+	    			.commit();
+    		}
     		restart();
     		return true;
     	} else {
@@ -140,10 +154,10 @@ public class Bullshit extends Activity {
 	    Configuration config = new Configuration();
 	    config.locale = locale;
 	    getBaseContext().getResources().updateConfiguration(config,null);
+	    setTitle(getString(R.string.app_name));
 	}
 	
 	private void restart() {
-		//TODO should the whole app be restarted to update title 
 		Intent intent = getIntent();
 		finish();
 		startActivity(intent);

@@ -9,7 +9,8 @@
 		Original idea: <b>dack.com</b>\n
 		Hosting: <b>vancso.hu/bullshit</b>
 	</string>
-	<string name="preferences">Settings</string>
+	<string name="preferences">Language</string>
+	<string name="systemlocale">default</string>
 
 	<string-array name="part1">
 		<item>Erőforrás-alapú megközelítéssel kell</item>
