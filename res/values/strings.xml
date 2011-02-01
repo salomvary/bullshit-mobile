@@ -271,113 +271,113 @@
 	</string-array>
 
 	<string-array name="part4">
-		<item>szinergiákat</item>
-		<item>adatbázist</item>
-		<item>ágazatközi munkamegosztást</item>
-		<item>akció-rádiuszt</item>
-		<item>akcióterveket</item>
-		<item>belső hatékonyságot</item>
-		<item>beruházási megtérülést</item>
-		<item>beszállító-menedzsmentet</item>
-		<item>csatlakozási pontokat</item>
-		<item>csapatot</item>
-		<item>csatornákat</item>
-		<item>derogációt</item>
-		<item>desztinációszenzitív portfoliót</item>
-		<item>együttműködéseket</item>
-		<item>egységköltséget</item>
-		<item>egység-díjtételt</item>
-		<item>ellátási láncokat</item>
-		<item>emberi erőforrást</item>
-		<item>eredményjavító hatást</item>
-		<item>erőforrás-menedzsmentet</item>
-		<item>erőforrásokat</item>
-		<item>értékláncot</item>
-		<item>értékesítési rendszert</item>
-		<item>fejlesztéseket</item>
-		<item>feladatmegosztást</item>
-		<item>flotta-menedzsmentet</item>
-		<item>fogyasztói bázist</item>
-		<item>frontvonalat</item>
-		<item>front-office-t</item>
-		<item>front-office on-stage vonalat</item>
-		<item>front-office backstage vonalat</item>
-		<item>hálózatokat</item>
-		<item>háttérszolgáltatásokat</item>
-		<item>hatalmi centrumot</item>
-		<item>imázs-alakítást</item>
-		<item>infrastruktúrákat</item>
-		<item>intermodalitást</item>
-		<item>interoperabilitást</item>
-		<item>irányelveket</item>
-		<item>irányítási filozófiát</item>
-		<item>jogharmonizációt</item>
-		<item>kapacitás-kihasználtságot</item>
-		<item>kapcsolatokat</item>
-		<item>kezdeményezéseket</item>
-		<item>koncepciót</item>
-		<item>kontextust</item>
-		<item>kontrollingot</item>
-		<item>konvergenciákat</item>
-		<item>költségérzékeny szegmenst</item>
-		<item>környezet-elemzést</item>
-		<item>kritériumokat</item>
-		<item>látványtechnológiát</item>
-		<item>leválasztási stratégiát</item>
-		<item>marketing-kutatást</item>
-		<item>marketing-miómát</item>
-		<item>marketing-szemléletet</item>
-		<item>megoldásokat</item>
-		<item>méretgazdaságosságot</item>
-		<item>mérföldköveket</item>
-		<item>metodológiákat</item>
-		<item>minőségi szolgáltatásokat</item>
-		<item>minpőségi indikátorokat</item>
-		<item>minőség-monitoringot</item>
-		<item>munkacsoportot</item>
-		<item>működési költségeket</item>
-		<item>optimalizálási koncepciót</item>
-		<item>outsourcingot</item>
-		<item>paradigmákat</item>
-		<item>piaci megjelenést</item>
-		<item>piaci potenciált</item>
-		<item>piaci pozíciót</item>
-		<item>piaci réseket</item>
-		<item>piaci trendeket</item>
-		<item>piacokat</item>
-		<item>pilot projektet</item>
-		<item>platformokat</item>
-		<item>portálokat</item>
-		<item>projekteket</item>
-		<item>reklámanyagot</item>
-		<item>rendszereket</item>
-		<item>rendszertervezési technológiát</item>
-		<item>sémákat</item>
-		<item>stratégiai célokat</item>
-		<item>szabályozásokat</item>
-		<item>szegmentumokat</item>
-		<item>személyszállítást</item>
-		<item>szervezeti kultúrát</item>
-		<item>szolgáltatási folyamatrendszert</item>
-		<item>szolgáltatás-felügyeletet</item>
-		<item>szolgáltatást</item>
-		<item>sztenderdizációt</item>
-		<item>támogató tevékenységet</item>
-		<item>termékpalettát</item>
-		<item>termékportfolió-átalakítást</item>
-		<item>technológiákat</item>
-		<item>tevékenység-menedzsmentet</item>
-		<item>tudásközpontot</item>
-		<item>tranzakciós költséget</item>
-		<item>újraelosztó-rendszert</item>
-		<item>ügyfeleket</item>
-		<item>ügyfélreferenst</item>
-		<item>ügyfél-kiszolgálást</item>
-		<item>ügyfélorientált trendeket</item>
-		<item>üzletmenetet</item>
-		<item>vállalati imázst</item>
-		<item>VIP-ügyfeleket</item>
-		<item>versenyhelyzetet</item>
-		<item>versenyelőny-forrást</item>
+		<item>szinergiákat.</item>
+		<item>adatbázist.</item>
+		<item>ágazatközi munkamegosztást.</item>
+		<item>akció-rádiuszt.</item>
+		<item>akcióterveket.</item>
+		<item>belső hatékonyságot.</item>
+		<item>beruházási megtérülést.</item>
+		<item>beszállító-menedzsmentet.</item>
+		<item>csatlakozási pontokat.</item>
+		<item>csapatot.</item>
+		<item>csatornákat.</item>
+		<item>derogációt.</item>
+		<item>desztinációszenzitív portfoliót.</item>
+		<item>együttműködéseket.</item>
+		<item>egységköltséget.</item>
+		<item>egység-díjtételt.</item>
+		<item>ellátási láncokat.</item>
+		<item>emberi erőforrást.</item>
+		<item>eredményjavító hatást.</item>
+		<item>erőforrás-menedzsmentet.</item>
+		<item>erőforrásokat.</item>
+		<item>értékláncot.</item>
+		<item>értékesítési rendszert.</item>
+		<item>fejlesztéseket.</item>
+		<item>feladatmegosztást.</item>
+		<item>flotta-menedzsmentet.</item>
+		<item>fogyasztói bázist.</item>
+		<item>frontvonalat.</item>
+		<item>front-office-t.</item>
+		<item>front-office on-stage vonalat.</item>
+		<item>front-office backstage vonalat.</item>
+		<item>hálózatokat.</item>
+		<item>háttérszolgáltatásokat.</item>
+		<item>hatalmi centrumot.</item>
+		<item>imázs-alakítást.</item>
+		<item>infrastruktúrákat.</item>
+		<item>intermodalitást.</item>
+		<item>interoperabilitást.</item>
+		<item>irányelveket.</item>
+		<item>irányítási filozófiát.</item>
+		<item>jogharmonizációt.</item>
+		<item>kapacitás-kihasználtságot.</item>
+		<item>kapcsolatokat.</item>
+		<item>kezdeményezéseket.</item>
+		<item>koncepciót.</item>
+		<item>kontextust.</item>
+		<item>kontrollingot.</item>
+		<item>konvergenciákat.</item>
+		<item>költségérzékeny szegmenst.</item>
+		<item>környezet-elemzést.</item>
+		<item>kritériumokat.</item>
+		<item>látványtechnológiát.</item>
+		<item>leválasztási stratégiát.</item>
+		<item>marketing-kutatást.</item>
+		<item>marketing-miómát.</item>
+		<item>marketing-szemléletet.</item>
+		<item>megoldásokat.</item>
+		<item>méretgazdaságosságot.</item>
+		<item>mérföldköveket.</item>
+		<item>metodológiákat.</item>
+		<item>minőségi szolgáltatásokat.</item>
+		<item>minpőségi indikátorokat.</item>
+		<item>minőség-monitoringot.</item>
+		<item>munkacsoportot.</item>
+		<item>működési költségeket.</item>
+		<item>optimalizálási koncepciót.</item>
+		<item>outsourcingot.</item>
+		<item>paradigmákat.</item>
+		<item>piaci megjelenést.</item>
+		<item>piaci potenciált.</item>
+		<item>piaci pozíciót.</item>
+		<item>piaci réseket.</item>
+		<item>piaci trendeket.</item>
+		<item>piacokat.</item>
+		<item>pilot projektet.</item>
+		<item>platformokat.</item>
+		<item>portálokat.</item>
+		<item>projekteket.</item>
+		<item>reklámanyagot.</item>
+		<item>rendszereket.</item>
+		<item>rendszertervezési technológiát.</item>
+		<item>sémákat.</item>
+		<item>stratégiai célokat.</item>
+		<item>szabályozásokat.</item>
+		<item>szegmentumokat.</item>
+		<item>személyszállítást.</item>
+		<item>szervezeti kultúrát.</item>
+		<item>szolgáltatási folyamatrendszert.</item>
+		<item>szolgáltatás-felügyeletet.</item>
+		<item>szolgáltatást.</item>
+		<item>sztenderdizációt.</item>
+		<item>támogató tevékenységet.</item>
+		<item>termékpalettát.</item>
+		<item>termékportfolió-átalakítást.</item>
+		<item>technológiákat.</item>
+		<item>tevékenység-menedzsmentet.</item>
+		<item>tudásközpontot.</item>
+		<item>tranzakciós költséget.</item>
+		<item>újraelosztó-rendszert.</item>
+		<item>ügyfeleket.</item>
+		<item>ügyfélreferenst.</item>
+		<item>ügyfél-kiszolgálást.</item>
+		<item>ügyfélorientált trendeket.</item>
+		<item>üzletmenetet.</item>
+		<item>vállalati imázst.</item>
+		<item>VIP-ügyfeleket.</item>
+		<item>versenyhelyzetet.</item>
+		<item>versenyelőny-forrást.</item>
 	</string-array>
 </resources>

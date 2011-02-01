@@ -79,11 +79,15 @@ public class Bullshit extends Activity {
     
     private String getBullShit() {
     	Random generator = new Random();
-    	return 
-    		part1[generator.nextInt(part1.length)] + " " +
-    		part2[generator.nextInt(part2.length)] + " " +
-    		part3[generator.nextInt(part3.length)] + " " +
-    		part4[generator.nextInt(part4.length)] + ".";
+    	StringBuilder bullshit = new StringBuilder(100);    	
+    	bullshit
+    		.append(part1[generator.nextInt(part1.length)]).append(" ")
+    		.append(part2[generator.nextInt(part2.length)]).append(" ")
+    		.append(part3[generator.nextInt(part3.length)]);
+    	if(part4.length > 0) {
+    		bullshit.append(" ").append(part4[generator.nextInt(part4.length)]);
+    	}
+    	return bullshit.toString(); 
     }
     
 

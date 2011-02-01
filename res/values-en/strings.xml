@@ -13,370 +13,182 @@
 	<string name="systemlocale">default</string>
 
 	<string-array name="part1">
-		<item>Erőforrás-alapú megközelítéssel kell</item>
-		<item>Egy absztrakciós létra mentén kell</item>
-		<item>Alapvető fontosságú</item>
-		<item>Kiemelt projektünk</item>
-		<item>A menedzsment célja</item>
-		<item>Teljes összhangban kell</item>
-		<item>Belső kommunikáció révén kell</item>
-		<item>Csapatmunkában szükséges</item>
-		<item>Még ma szükséges</item>
-		<item>Nem tűr halasztást</item>
-		<item>Fontos lenne</item>
-		<item>Szükséges lenne</item>
-		<item>Szükséges</item>
-		<item>Vállalatunk célja</item>
-		<item>Kiemelt fontosságú feladat</item>
-		<item>Ennek szellemében kell</item>
-		<item>Formállogikai alapon kellene</item>
-		<item>Alkotó folyamat keretében kell</item>
-		<item>Felelősséggel kell</item>
-		<item>A következőt kell tennünk:</item>
-		<item>Egyetlen megoldásunk van:</item>
-		<item>Az egyetlen kiút:</item>
-		<item>Tanácsadóink szerint célunk:</item>
-		<item>A menedzsment szeretné</item>
-		<item>Az üzletág szeretné</item>
-		<item>Most kell</item>
-		<item>Nincs más hátra, mint</item>
-		<item>Ne felejtsük el</item>
-		<item>Ne szalasszuk el</item>
-		<item>Szeretném</item>
-		<item>Célom</item>
-		<item>Az eddigiek szerint kell</item>
-		<item>A lényeg:</item>
-		<item>Feladatunk:</item>
-		<item>Küldetésünk:</item>
-		<item>A mai legfontosabb prioritás:</item>
-		<item>Megpróbáljuk</item>
-		<item>Megpróbálom</item>
-		<item>Megkíséreljük</item>
-		<item>Megkísérlem</item>
-		<item>Próbáljátok meg</item>
-		<item>Meg kell próbálnunk</item>
-		<item>Küldetésem</item>
-		<item>Új koncepció szerint kell</item>
-		<item>Azonnal szükséges</item>
-		<item>Egy megoldás van:</item>
-		<item>Kreatív módon kell</item>
-		<item>Sürgősen szükséges</item>
-		<item>Személyes célom</item>
-		<item>Nincs más dolgunk, mint</item>
-		<item>Nincs más feladatom, mint</item>
-		<item>Legfontosabb feladatom</item>
-		<item>Legfontosabb küldetésem</item>
-		<item>Elsődleges fontosságú lenne</item>
-		<item>Elengedhetetlen lenne</item>
-		<item>Létfontosságú dolog</item>
-		<item>Elengedhetetlenül fontos lenne</item>
-		<item>Itt az idő</item>
-		<item>Nem halaszthatjuk el</item>
-		<item>Kreatív módon kell</item>
-		<item>Elemzések segítségével kell</item>
-		<item>Kreatív módon kéne</item>
-		<item>Látványosan kell</item>
-		<item>Minél feltűnőbben kell</item>
-		<item>Professzionális módon kell</item>
-		<item>Megfelelő időzítéssel kell</item>
+		<item>implement</item>
+		<item>utilize</item>
+		<item>integrate</item>
+		<item>streamline</item>
+		<item>optimize</item>
+		<item>evolve</item>
+		<item>transform</item>
+		<item>embrace</item>
+		<item>enable</item>
+		<item>orchestrate</item>
+		<item>leverage</item>
+		<item>reinvent</item>
+		<item>aggregate</item>
+		<item>architect</item>
+		<item>enhance</item>
+		<item>incentivize</item>
+		<item>morph</item>
+		<item>empower</item>
+		<item>envisioneer</item>
+		<item>monetize</item>
+		<item>harness</item>
+		<item>facilitate</item>
+		<item>seize</item>
+		<item>disintermediate</item>
+		<item>synergize</item>
+		<item>strategize</item>
+		<item>deploy</item>
+		<item>brand</item>
+		<item>grow</item>
+		<item>target</item>
+		<item>syndicate</item>
+		<item>synthesize</item>
+		<item>deliver</item>
+		<item>mesh</item>
+		<item>incubate</item>
+		<item>engage</item>
+		<item>maximize</item>
+		<item>benchmark</item>
+		<item>expedite</item>
+		<item>reintermediate</item>
+		<item>whiteboard</item>
+		<item>visualize</item>
+		<item>repurpose</item>
+		<item>innovate</item>
+		<item>scale</item>
+		<item>unleash</item>
+		<item>drive</item>
+		<item>extend</item>
+		<item>engineer</item>
+		<item>revolutionize</item>
+		<item>generate</item>
+		<item>exploit</item>
+		<item>transition</item>
+		<item>e-enable</item>
+		<item>iterate</item>
+		<item>cultivate</item>
+		<item>matrix</item>
+		<item>productize</item>
+		<item>redefine</item>
+		<item>recontextualize</item>
 	</string-array>
 
 	<string-array name="part2">
-		<item>implementálni</item>
-		<item>átültetni</item>
-		<item>aggregálni</item>
-		<item>aktívan menedzselni</item>
-		<item>aktiválni</item>
-		<item>allokálni</item>
-		<item>analizálni</item>
-		<item>áramvonalasítani</item>
-		<item>arányosítani</item>
-		<item>áthangszerelni</item>
-		<item>átváltoztatni</item>
-		<item>átvariálni</item>
-		<item>átvezetni</item>
-		<item>bátorítani</item>
-		<item>betanítani</item>
-		<item>befolyásolni</item>
-		<item>benchmarkolni</item>
-		<item>bevetni</item>
-		<item>birtokba venni</item>
-		<item>bővíteni</item>
-		<item>szűkíteni</item>
-		<item>ellenőrizni</item>
-		<item>előmozdítani</item>
-		<item>életre kelteni</item>
-		<item>facilitálni</item>
-		<item>fejleszteni</item>
-		<item>felnevelni</item>
-		<item>felruházni</item>
-		<item>felszabadítani</item>
-		<item>forradalmasítani</item>
-		<item>generálni</item>
-		<item>hasznosítani</item>
-		<item>hatékonyabbá tenni</item>
-		<item>innovatívan fejleszteni</item>
-		<item>integrálni</item>
-		<item>iterálni</item>
-		<item>kihangsúlyozni</item>
-		<item>kiválasztani</item>
-		<item>leválogatni</item>
-		<item>leválasztani</item>
-		<item>kihasználni</item>
-		<item>kiterjeszteni</item>
-		<item>kultiválni</item>
-		<item>lefoglalni</item>
-		<item>lehetővé tenni</item>
-		<item>márkázni</item>
-		<item>maximalizálni</item>
-		<item>meghatározni</item>
-		<item>megragadni</item>
-		<item>megváltoztatni</item>
-		<item>menedzselni</item>
-		<item>monetizálni</item>
-		<item>motiválni</item>
-		<item>növelni</item>
-		<item>nyilvánvalóvá tenni</item>
-		<item>optimalizálni</item>
-		<item>ösztönözni</item>
-		<item>kiépíteni</item>
-		<item>rávilágítani</item>
-		<item>racionálisan végiggondolni</item>
-		<item>racionalizálni</item>
-		<item>ritkítani</item>
-		<item>sűríteni</item>
-		<item>strategizálni</item>
-		<item>struktúrálni</item>
-		<item>szakmailag felügyelni</item>
-		<item>szétszabdalni</item>
-		<item>szimulálni</item>
-		<item>szindikálni</item>
-		<item>szinergizálni</item>
-		<item>szinkronba hozni</item>
-		<item>sztenderdizálni</item>
-		<item>szintetizálni</item>
-		<item>támogatni</item>
-		<item>targetálni</item>
-		<item>termékesíteni</item>
-		<item>testreszabni</item>
-		<item>toborozni</item>
-		<item>tipizálni</item>
-		<item>tiszta lappal kezdeni</item>
-		<item>transzformálni</item>
-		<item>túlteljesíteni</item>
-		<item>új kontextusba helyezni</item>
-		<item>újra feltalálni</item>
-		<item>újra meghatározni</item>
-		<item>újradefiniálni</item>
-		<item>újrapozícionálni</item>
-		<item>újratermelni</item>
-		<item>vizionálni</item>
-		<item>vizualizálni</item>
+		<item>clicks-and-mortar</item>
+		<item>value-added</item>
+		<item>vertical</item>
+		<item>proactive</item>
+		<item>robust</item>
+		<item>revolutionary</item>
+		<item>scalable</item>
+		<item>leading-edge</item>
+		<item>innovative</item>
+		<item>intuitive</item>
+		<item>strategic</item>
+		<item>e-business</item>
+		<item>mission-critical</item>
+		<item>sticky</item>
+		<item>one-to-one</item>
+		<item>24/7</item>
+		<item>end-to-end</item>
+		<item>global</item>
+		<item>B2B</item>
+		<item>B2C</item>
+		<item>granular</item>
+		<item>frictionless</item>
+		<item>virtual</item>
+		<item>viral</item>
+		<item>dynamic</item>
+		<item>24/365</item>
+		<item>best-of-breed</item>
+		<item>killer</item>
+		<item>magnetic</item>
+		<item>bleeding-edge</item>
+		<item>web-enabled</item>
+		<item>interactive</item>
+		<item>dot-com</item>
+		<item>sexy</item>
+		<item>back-end</item>
+		<item>real-time</item>
+		<item>efficient</item>
+		<item>front-end</item>
+		<item>distributed</item>
+		<item>seamless</item>
+		<item>extensible</item>
+		<item>turn-key</item>
+		<item>world-class</item>
+		<item>open-source</item>
+		<item>cross-platform</item>
+		<item>cross-media</item>
+		<item>synergistic</item>
+		<item>bricks-and-clicks</item>
+		<item>out-of-the-box</item>
+		<item>enterprise</item>
+		<item>integrated</item>
+		<item>impactful</item>
+		<item>wireless</item>
+		<item>transparent</item>
+		<item>next-generation</item>
+		<item>cutting-edge</item>
+		<item>user-centric</item>
+		<item>visionary</item>
+		<item>customized</item>
+		<item>ubiquitous</item>
+		<item>plug-and-play</item>
+		<item>collaborative</item>
+		<item>compelling</item>
+		<item>holistic</item>
+		<item>rich</item>
 	</string-array>
 
 	<string-array name="part3">
-		<item>a közösségi normáknak megfelelő</item>
-		<item>a decentralizált</item>
-		<item>a dinamikusan növekvő</item>
-		<item>a dinamikusan növekvő</item>
-		<item>a divergens</item>
-		<item>a fontos</item>
-		<item>a felvállalható</item>
-		<item>a forradalmian új</item>
-		<item>a funkció-specifikus</item>
-		<item>a globális preferenciák szerinti</item>
-		<item>a hatásos</item>
-		<item>a hatékony</item>
-		<item>a hibátlan</item>
-		<item>a holisztikus</item>
-		<item>a kihívást jelentő</item>
-		<item>a konvergens</item>
-		<item>a konzisztens</item>
-		<item>a korrigálható</item>
-		<item>a korreláló</item>
-		<item>a költséghatékony</item>
-		<item>a közszolgáltatási</item>
-		<item>a kultúraidegen</item>
-		<item>a kritikus</item>
-		<item>a kvázi-projekt-szerű</item>
-		<item>a marketing-szemléletű</item>
-		<item>a megfelelően előkészített</item>
-		<item>a meghatározandó</item>
-		<item>a megtérülő</item>
-		<item>a metakommunkiációs</item>
-		<item>a one-stop-shop-szerű</item>
-		<item>az összehangolt</item>
-		<item>a piacvezető</item>
-		<item>a proaktív</item>
-		<item>a prudens</item>
-		<item>a reakcióképes</item>
-		<item>a robosztus</item>
-		<item>a racionális</item>
-		<item>a rendszeres</item>
-		<item>a rugalmas</item>
-		<item>a sajátos</item>
-		<item>a stagnáló</item>
-		<item>a stratégiai céloknak megfelelő</item>
-		<item>a stratégiáknak megfelelő</item>
-		<item>a súrlódásmentes</item>
-		<item>a szárnyaló</item>
-		<item>a széles körben használt</item>
-		<item>a személyre szabott</item>
-		<item>a szinergizált</item>
-		<item>a tudatos</item>
-		<item>a vállalati szintű</item>
-		<item>a vállalati szintű</item>
-		<item>a vállalatspecifikus</item>
-		<item>a vállalható</item>
-		<item>a valós idejű</item>
-		<item>a vertikális</item>
-		<item>a világszínvonalú</item>
-		<item>a virtuális</item>
-		<item>a vizionált</item>
-		<item>a vonzáskörzeten belüli</item>
-		<item>a XXI. századi színvonalú</item>
-		<item>az autonóm</item>
-		<item>a heteronóm</item>
-		<item>az apatikus</item>
-		<item>a közömbös</item>
-		<item>a személyközi</item>
-		<item>a szűkös</item>
-		<item>a rutinos</item>
-		<item>az atipikus</item>
-		<item>az átlátható</item>
-		<item>az attraktív</item>
-		<item>az egységsugarú</item>
-		<item>az együttműködő</item>
-		<item>az elosztott</item>
-		<item>az elővárosi</item>
-		<item>az előnyös</item>
-		<item>az értéklánc menti</item>
-		<item>az értéknövelt</item>
-		<item>az európai színvonalú</item>
-		<item>az európai uniós</item>
-		<item>az extenzív</item>
-		<item>az időzített</item>
-		<item>az igazgató úr által is említett</item>
-		<item>az innovatív</item>
-		<item>az integrált</item>
-		<item>az interaktív</item>
-		<item>az intuitív</item>
-		<item>az irányvonalnak megfelelő</item>
-		<item>az ügyfélbarát</item>
-		<item>az ügyfélközpontú</item>
-		<item>az ügyféloldali</item>
-		<item>az ütemes</item>
-		<item>a távolsági</item>
+		<item>synergies</item>
+		<item>web-readiness</item>
+		<item>paradigms</item>
+		<item>markets</item>
+		<item>partnerships</item>
+		<item>infrastructures</item>
+		<item>platforms</item>
+		<item>initiatives</item>
+		<item>channels</item>
+		<item>eyeballs</item>
+		<item>communities</item>
+		<item>ROI</item>
+		<item>solutions</item>
+		<item>e-tailers</item>
+		<item>e-services</item>
+		<item>action-items</item>
+		<item>portals</item>
+		<item>niches</item>
+		<item>technologies</item>
+		<item>content</item>
+		<item>vortals</item>
+		<item>supply-chains</item>
+		<item>convergence</item>
+		<item>relationships</item>
+		<item>architectures</item>
+		<item>interfaces</item>
+		<item>e-markets</item>
+		<item>e-commerce</item>
+		<item>systems</item>
+		<item>bandwidth</item>
+		<item>infomediaries</item>
+		<item>models</item>
+		<item>mindshare</item>
+		<item>deliverables</item>
+		<item>users</item>
+		<item>schemas</item>
+		<item>networks</item>
+		<item>applications</item>
+		<item>metrics</item>
+		<item>e-business</item>
+		<item>functionalities</item>
+		<item>experiences</item>
+		<item>web services</item>
+		<item>methodologies</item>
 	</string-array>
 
-	<string-array name="part4">
-		<item>szinergiákat</item>
-		<item>adatbázist</item>
-		<item>ágazatközi munkamegosztást</item>
-		<item>akció-rádiuszt</item>
-		<item>akcióterveket</item>
-		<item>belső hatékonyságot</item>
-		<item>beruházási megtérülést</item>
-		<item>beszállító-menedzsmentet</item>
-		<item>csatlakozási pontokat</item>
-		<item>csapatot</item>
-		<item>csatornákat</item>
-		<item>derogációt</item>
-		<item>desztinációszenzitív portfoliót</item>
-		<item>együttműködéseket</item>
-		<item>egységköltséget</item>
-		<item>egység-díjtételt</item>
-		<item>ellátási láncokat</item>
-		<item>emberi erőforrást</item>
-		<item>eredményjavító hatást</item>
-		<item>erőforrás-menedzsmentet</item>
-		<item>erőforrásokat</item>
-		<item>értékláncot</item>
-		<item>értékesítési rendszert</item>
-		<item>fejlesztéseket</item>
-		<item>feladatmegosztást</item>
-		<item>flotta-menedzsmentet</item>
-		<item>fogyasztói bázist</item>
-		<item>frontvonalat</item>
-		<item>front-office-t</item>
-		<item>front-office on-stage vonalat</item>
-		<item>front-office backstage vonalat</item>
-		<item>hálózatokat</item>
-		<item>háttérszolgáltatásokat</item>
-		<item>hatalmi centrumot</item>
-		<item>imázs-alakítást</item>
-		<item>infrastruktúrákat</item>
-		<item>intermodalitást</item>
-		<item>interoperabilitást</item>
-		<item>irányelveket</item>
-		<item>irányítási filozófiát</item>
-		<item>jogharmonizációt</item>
-		<item>kapacitás-kihasználtságot</item>
-		<item>kapcsolatokat</item>
-		<item>kezdeményezéseket</item>
-		<item>koncepciót</item>
-		<item>kontextust</item>
-		<item>kontrollingot</item>
-		<item>konvergenciákat</item>
-		<item>költségérzékeny szegmenst</item>
-		<item>környezet-elemzést</item>
-		<item>kritériumokat</item>
-		<item>látványtechnológiát</item>
-		<item>leválasztási stratégiát</item>
-		<item>marketing-kutatást</item>
-		<item>marketing-miómát</item>
-		<item>marketing-szemléletet</item>
-		<item>megoldásokat</item>
-		<item>méretgazdaságosságot</item>
-		<item>mérföldköveket</item>
-		<item>metodológiákat</item>
-		<item>minőségi szolgáltatásokat</item>
-		<item>minpőségi indikátorokat</item>
-		<item>minőség-monitoringot</item>
-		<item>munkacsoportot</item>
-		<item>működési költségeket</item>
-		<item>optimalizálási koncepciót</item>
-		<item>outsourcingot</item>
-		<item>paradigmákat</item>
-		<item>piaci megjelenést</item>
-		<item>piaci potenciált</item>
-		<item>piaci pozíciót</item>
-		<item>piaci réseket</item>
-		<item>piaci trendeket</item>
-		<item>piacokat</item>
-		<item>pilot projektet</item>
-		<item>platformokat</item>
-		<item>portálokat</item>
-		<item>projekteket</item>
-		<item>reklámanyagot</item>
-		<item>rendszereket</item>
-		<item>rendszertervezési technológiát</item>
-		<item>sémákat</item>
-		<item>stratégiai célokat</item>
-		<item>szabályozásokat</item>
-		<item>szegmentumokat</item>
-		<item>személyszállítást</item>
-		<item>szervezeti kultúrát</item>
-		<item>szolgáltatási folyamatrendszert</item>
-		<item>szolgáltatás-felügyeletet</item>
-		<item>szolgáltatást</item>
-		<item>sztenderdizációt</item>
-		<item>támogató tevékenységet</item>
-		<item>termékpalettát</item>
-		<item>termékportfolió-átalakítást</item>
-		<item>technológiákat</item>
-		<item>tevékenység-menedzsmentet</item>
-		<item>tudásközpontot</item>
-		<item>tranzakciós költséget</item>
-		<item>újraelosztó-rendszert</item>
-		<item>ügyfeleket</item>
-		<item>ügyfélreferenst</item>
-		<item>ügyfél-kiszolgálást</item>
-		<item>ügyfélorientált trendeket</item>
-		<item>üzletmenetet</item>
-		<item>vállalati imázst</item>
-		<item>VIP-ügyfeleket</item>
-		<item>versenyhelyzetet</item>
-		<item>versenyelőny-forrást</item>
-	</string-array>
+	<string-array name="part4"></string-array>
 </resources>
